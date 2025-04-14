@@ -1,0 +1,11 @@
+telethon
+pandas
+openpyxl
+instagrapi
+pillow
+facebook_page_scraper
+blinker
+facebook-scraper
+selenium
+selenium-wire
+blinker
