@@ -19,4 +19,10 @@ A unified Python-based scraper to collect comments from **Facebook**, **Telegram
 
 ## 📂 Project Structure
 
-project/ │ ├── telegram_scraper.py # Collects keyword-based Telegram comments ├── instagram_scraper.py # Collects keyword-based Instagram comments ├── facebook_scraper.py # Collects keyword-based Facebook comments ├── comments.json # Output JSON with merged results ├── whoComments.json # Intermediate Instagram comment file ├── whoINST.json # Raw Instagram post metadata ├── comments.xlsx # Final Excel export (if needed) └── state.json # Tracks last processed post
+project 
+├── requierments.txt # Packages requirements
+├── telegram.py # Collects keyword-based Telegram comments 
+├── inst.py # Collects keyword-based Instagram posts 
+├── instComments.py # Collects Instagram comments 
+└── facebook.py # Collects keyword-based Facebook comments 
+
